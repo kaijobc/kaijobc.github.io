@@ -28,10 +28,7 @@ header {
 }
 
 header.scrolled {
-    background-color: rgba(56, 69, 56, 0.999999);
-    /* パステルピンク */
-    opacity: 0.9;
-    /* 透明度を上げる */
+    background-color: rgba(56, 69, 56, 0.95);
 }
 
 #header-content {
@@ -139,7 +136,7 @@ nav ul li a:hover {
 /* Main Content Styling */
 
 main {
-    background: linear-gradient(18deg, #d74400, #d68834, #adce26, #c0d668);
+    background: linear-gradient(30deg, #d68834, #adce26, #c0d668, #983a17, #d74400);
     background-size: 800% 800%;
     animation: GradientBackground 15s ease infinite;
 }
@@ -365,7 +362,7 @@ div.container {
 }
 
 .card a:hover {
-    color: #000000;
+    color: #ff0000;
     background-color: #ffffff;
     transform: scale(1.2);
 }
