@@ -139,7 +139,7 @@ nav ul li a:hover {
 /* Main Content Styling */
 
 main {
-    background: linear-gradient(18deg, #FF5000, #FF982C, #B6D926, #D5EE70);
+    background: linear-gradient(18deg, #d74400, #d68834, #adce26, #c0d668);
     background-size: 800% 800%;
     animation: GradientBackground 15s ease infinite;
 }
@@ -370,6 +370,9 @@ div.container {
     transform: scale(1.2);
 }
 
+h2{
+    color: #ffffff
+}
 
 h3 {
     display: flex;
