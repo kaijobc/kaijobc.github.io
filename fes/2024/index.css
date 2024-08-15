@@ -1,3 +1,5 @@
+/* 注意: 代が変わろうとも、Arialは絶対に使うな */
+
 /* Basic Reset */
 * {
     margin: 0;
@@ -6,7 +8,9 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "fot-tsukuardgothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.6;
     background-color: #f8f9fa;
     color: #333;
@@ -136,7 +140,7 @@ nav ul li a:hover {
 /* Main Content Styling */
 
 main {
-    background: linear-gradient(30deg, #d68834, #adce26, #c0d668, #983a17, #d74400);
+    background: linear-gradient(249deg, #d68834, #8eac10, #8fa537, #d16c47, #bb653d, #a1bd35, #b9cf61);
     background-size: 800% 800%;
     animation: GradientBackground 15s ease infinite;
 }
@@ -307,6 +311,7 @@ div.container {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
+    margin-bottom: 20px;
     flex-direction: column;
 }
 
@@ -335,7 +340,11 @@ div.container {
     transition: all 0.3s ease-in-out;
 }
 
-
+.card p {
+    font-family: "fot-tsukuardgothic-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 
 .card:hover {
@@ -345,6 +354,9 @@ div.container {
 
 .card h4 {
     color: #001858;
+    font-family: "fot-tsukuardgothic-std", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
     border-bottom: 2px dashed #fec89a;
     padding-bottom: 5px;
 }
@@ -362,12 +374,12 @@ div.container {
 }
 
 .card a:hover {
-    color: #ff0000;
+    color: #a25400;
     background-color: #ffffff;
     transform: scale(1.2);
 }
 
-h2{
+h2 {
     color: #ffffff
 }
 
