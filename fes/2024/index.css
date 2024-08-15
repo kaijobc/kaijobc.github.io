@@ -174,7 +174,7 @@ main p {
 
 /* Footer Styling */
 footer {
-    border-top: 1.5mm ridge rgba(119, 220, 240, 0.6);
+    border-top: 1mm solid rgb(252 154 44 / 44%);
     background: rgb(50, 59, 17);
     background: linear-gradient(45deg, rgba(50, 59, 17, 1) 0%, rgba(60, 37, 12, 1) 52%, rgba(32, 10, 0, 1) 100%);
 
