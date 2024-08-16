@@ -120,7 +120,7 @@ nav ul li a:hover {
 main {
     background: linear-gradient(244deg, #d68834, #8eac10, #8fa537, #d16c47, #bb653d, #a1bd35, #b9cf61);
     background-size: 800% 800%;
-    animation: GradientBackground 15s ease infinite;
+    animation: GradientBackground 20s ease infinite;
     padding-top: 110px;
 }
 
