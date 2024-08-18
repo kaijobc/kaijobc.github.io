@@ -132,7 +132,7 @@ main {
 
 main h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 20px;
     color: #ffffff;
 }
@@ -166,7 +166,7 @@ main p {
 /* Card Styling */
 .card {
     flex: 1 1 30%;
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.90);
     backdrop-filter: blur(5px);
     margin: 10px;
     padding: 25px;
@@ -183,11 +183,12 @@ main p {
 
 .card h4 {
     color: #415d49;
+    font-size: 18px;
     font-family: "fot-tsukuardgothic-std", sans-serif;
     font-weight: 700;
     border-bottom: 2px solid #d68834;
-    padding-bottom: 8px;
-    margin-bottom: 15px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
 }
 
 .card p {
@@ -233,7 +234,6 @@ footer {
     flex-wrap: wrap;
     gap: 20px;
     margin-bottom: 20px;
-    border-bottom: dashed 1.3px #c7cd7d;
     padding-bottom: 10px;
 }
 
