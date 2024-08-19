@@ -44,7 +44,7 @@ header.scrolled {
     animation: GradientBackground 15s ease infinite;
     animation: GradientBackground 20s ease infinite;
     padding-top: 110px;
-    padding: 100px 100px 200px; /* 下部のパディングを増やす */
+    padding: 50px 100px 125px; /* 下部のパディングを増やす */
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
     margin-bottom: -203px; /* 次のセクションとの重なりを作る */
@@ -52,12 +52,13 @@ header.scrolled {
 }
 
 div#first.content {
-    padding: 100px 30px 100px;
+    padding: 100px 50px;
+    padding-bottom: 50px;
     clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);
     position: relative;
     margin: 0;
     z-index: 1;
-    background-color: #424855 !important;
+    background-color: #329623 !important;
 }
 div#first.content h2{
     padding-top: 50px !important;
