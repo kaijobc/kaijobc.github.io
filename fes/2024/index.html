@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KBC - 133rd海城祭『楓』</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="maple.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
     </style>
@@ -40,6 +41,7 @@
     </header>
 
     <main style="padding-top: 71px">
+        <!--
         <div class="fes-info">
             <h2
                 style="text-align: center; font-size: 30px; font-family: 'BIZ UDPMincho', serif; letter-spacing: 0.3em; padding-top: 0;">
@@ -61,6 +63,15 @@
                     <img src="2.svg" alt="" style="width: 100px; margin-right: 1rem; padding-left: 5px;">
                 </div>
             </a>
+        </div>
+        -->
+        <div class="content" id="maple" style="display: inline-block;">
+            <img src="maple_color.svg"
+                style="height: 800px;transform: scaleX(0.8);transform-origin: center;padding-left: 0px;">
+            <!-- particles.js container -->
+            <div id="particles-js"></div> <!-- stats - count particles -->
+            <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+            <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
         </div>
         <div class="content" id="exhibit">
             <h2>部誌</h2>
@@ -181,7 +192,9 @@
         </div>
         <p id="footer-credits">&copy; 2024 Kaijo Biology Club</p>
     </footer>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="index.js"></script>
+    <script src="maple.js"></script>
 </body>
 
 </html>
