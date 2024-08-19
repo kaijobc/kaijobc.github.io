@@ -39,39 +39,40 @@ header.scrolled {
 }
 
 .fes-info {
-    background-color: #617D71;
-    padding: 100px 100px 150px; /* 下部のパディングを増やす */
+    background: linear-gradient(244deg, #d68834, #8eac10, #8fa537, #d16c47, #bb653d, #a1bd35, #b9cf61);
+    background-size: 800% 800%;
+    animation: GradientBackground 15s ease infinite;
+    animation: GradientBackground 20s ease infinite;
+    padding-top: 110px;
+    padding: 100px 100px 200px; /* 下部のパディングを増やす */
     position: relative;
-    color: #000;
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    margin-bottom: -68px; /* 次のセクションとの重なりを作る */
-    z-index: 1; /* 重なり順を制御 */
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+    margin-bottom: -203px; /* 次のセクションとの重なりを作る */
+    z-index: 2; /* 重なり順を制御 */
 }
 
-div.content {
+div#first.content {
     padding: 100px 30px 100px;
-    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
-    position: relative;
-    margin: 0;
-    z-index: 2;
-    background-color: #424855 !important;
-}
-div.content:nth-child(2) {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-}
-div.content:first-child{
-    padding: 100px 30px 100px;
-    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);
     position: relative;
     margin: 0;
     z-index: 1;
     background-color: #424855 !important;
 }
+div#first.content h2{
+    padding-top: 50px !important;
+}
 
-/* 最後のcontentセクション用 */
-div.content:last-child {
-    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-    padding-bottom: 50px;
+
+div#exhibit.content {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    background-color: #424855 !important;
+    margin: 0px;
+}
+
+div#sns.content{
+    background-color: #424855 !important;
+    margin:0px;
 }
 
 /* .fes-info 内の h2 要素のマージンを調整 */
